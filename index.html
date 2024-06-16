@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+             
+    </nav>
+    <header>
+       <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1> A WONDERFUL GIFT</h1>
+             <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/imgA.jpeg" alt="Everest Camp Trek">
+                <h4>Everest Camp Trek</h4>
+                <p>Distance: The trek typically covers around 130 kilometers (80 miles) round trip, starting and ending in Lukla.</p>
+                <br>        
+                <p>Duration: It usually takes about 12-14 days to complete, allowing for proper acclimatization to the high altitude.</p>
+                <br>
+                <p>Highest Point: The highest point is Kala Patthar at 5,640 meters (18,500 feet).</p>
+                <br>
+                <p>Difficulty: The trek is considered difficult.</p> 
+                <br>
+                <p>Permits: You’ll need a local government fee (NPR 2,000/US$17 per person) and a Sagarmatha National Park permit (NPR 3,000/US$25 per person) 123.</p> 
+                <br>
+                <p>The journey begins with a flight to Lukla, which has one of the world’s most dangerous airports.</p>
+                <br>
+                <p>From there, you’ll trek through villages, forests, and beautiful mountains, making memories that will last a lifetime.</p> 
+                <br>
+                <p>Enjoy the breathtaking scenery and the friendly Nepali people.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img B.jpeg" alt="Walking Holidays">
+                <h4>Walking Holidays</h4>
+                <p>Introductory Walking:
+                    If you’re new to walking holidays, consider an introductory trip. These are perfect for a leisurely Sunday afternoon walk.
+                    No experience required, but you should be healthy enough to walk 4-5 hours on relatively flat trails.
+                </p>
+                <br>
+                <p>Moderate Walking:
+                    For those who’ve tackled a few hills on Sundays, moderate walking holidays offer a bit more challenge.
+                    Expect 5-8 hours of walking per day.
+                </p>  
+                <br>
+                <p>Walking Plus One:
+                    Combine walking with another activity or learn a new skill.
+                </p> 
+                <br>
+                <p>Self-Guided Walking:
+                    If you prefer independence, opt for self-guided walking holidays.
+                    Organized self-guided trips provide maps, notes, accommodation, luggage transfers, and food.
+                    No previous experience needed, but map-reading skills help!</p> 
+                <br>
+                <p> Walking Safaris:
+                    Experience wildlife by trekking and tracking with expert guides.</p> 
+                <br>
+                <p>A unique way to explore nature and observe animals in their natural habitat.</p> 
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>    
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+        <P>Exploring the world opens your eyes to new cultures, breathtaking landscapes, and unforgettable experiences. Discover the diverse beauty our planet has to offer, from bustling cities to serene natural wonders. Each journey enriches your perspective and creates lasting memories.</P>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & <br> DESTINATION</h1>
+                <div class="line"></div>
+                <br>
+                 <p>Sri Lanka Tours & Holidays:
+                    Pristine rainforests, ancient rock fortresses, and abundant wildlife await you in Sri Lanka.
+                    Explore the Knuckles Mountain Range, travel by train through tea plantations, and enjoy local cuisine like curry and hoppers.
+                    Don’t miss climbing Lion Rock in Sigiriya and discovering Jaffna in the island’s north.
+                    Tour options include Original, Premium, and Family Holiday packages.</p>
+                    <br>
+                 <p>Grand Europe:
+                    Experience the best of Europe with a tour that includes Switzerland and Paris.
+                    Enjoy meals, hand-picked hotels, convenient transfers, sightseeing, and memorable experiences.</p>
+                    <br>
+                <p> Multi-Country Asia Tour Packages:
+                    Discover classic Asia with unforgettable tours across fascinating countries, including Sri Lanka.</p> 
+                    <br>
+                 <p>Remember to check specific tour providers for detailed itineraries and booking information.</p> 
+                 <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/SriLanka img.jpg" alt="">
+                    <img src="./img/SriLanka Travel.img.jpg" alt="">
+                    <img src="./img/Europe Tour.img.jpg" alt="">
+                    <img src="./img/hike.imh.jpg" alt="">
+                    <img src="./img/Asia Tour.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Kavi'S Perera | 35, John Rudrigu road, Katubadda, Moratuwa | Phone: 0740726297 | Email: kavindayap57@gmail.com <br> Copyright &copy; 2024 Outdoor Adventure.</p>
+    </section>
+    
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+    
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        });
+    </script>
+    
+</body>
+</html>
